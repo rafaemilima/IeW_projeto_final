@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="PT-BR" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu lanche UFAL</title>
+  <link rel="stylesheet" href="style_logado.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+  <link rel="icon" href="./images/icon.png" type="image/x-icon"/>
+</head>
+  <body>
+    <ul class="menu">
+      <li>
+        <i class="fas fa-hamburger"> Meu lanche UFAL, onde comer?</i>
+      </li>
+      <li>
+        <p style="margin-left:520px;color:white"> Bem-vindo!&nbsp;&nbsp;
+        <input style="border-radius: 8px; width: 79px; height: 30px;" type="button" name="sair" value="Logout" onclick="window.location.href='index.html'"></p>
+      </li>
+      <li>
+      </li>
+    </ul>
+
+    <ul class="main_page">
+      <li>
+        <ul class="list_cards">
+          <li>
+            <div class="card">
+              <div class="imagem">
+                <img class="profile_pic" src="./images/image.jpeg" alt="CIC">
+              </div>
+              <ul style="list-style-type: none; padding: 0;">
+                <li>
+                  <h4><b>Lanchonete CIC</b></h4>
+                  <i id="like1" class="far fa-thumbs-up fa-2x"></i><b><span id="mais1">&nbsp;0</span></b>
+                  <p></p>
+                  <i id="dlike1" class="far fa-thumbs-down fa-2x"></i><b><span id="menos1">&nbsp;0</span></b>
+                </li>
+                <li style="margin-left: 100px; margin-top: -85px; border: 1px solid; width: 250px; height:100px; padding: 1px;">
+                  <p style="text-align:center"><b>Blocos Próximos:</b><br><br>
+                  - Educação Física<br>
+                  - Instituto de Computação</p>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <div class="imagem">
+                <img class="profile_pic" src="./images/image2.jpeg" alt="Bira">
+              </div>
+              <ul style="list-style-type: none; padding: 0;">
+                <li>
+                  <h4><b>Lanchonete do Bira</b></h4>
+                  <i id="like2" class="far fa-thumbs-up fa-2x"></i><b><span id="mais2">&nbsp;0</span></b>
+                  <p></p>
+                  <i id="dlike2" class="far fa-thumbs-down fa-2x"></i><b><span id="menos2">&nbsp;0</span></b>
+                </li>
+                <li style="margin-left: 100px; margin-top: -85px; border: 1px solid; width: 250px; height:100px; padding: 1px;">
+                  <p style="text-align:center"><b>Blocos Próximos:</b><br><br>
+                  - Engenharias<br>
+                  - Arquitetura e Urbanismo</p>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <ul class="cards_right">
+          <li>
+            <div class="filtro">
+              <br>
+              <p><b>Objetivo</b></p>
+              <p style="text-align: justify; margin-left: 20px; margin-right: 20px;text-indent: 10px">
+                Site criado como projeto avaliativo para obtenção de nota
+                na disciplina de Internet e WEB. Professor: Fábio Paraguaçu.
+            </div>
+          </li>
+          <li>
+            <div class="help">
+              <br>
+              <b>COMO USAR O SITE?</b>
+              <p style="text-align: justify; margin-left: 20px; margin-right: 20px;text-indent: 10px">
+                Em cada card você verá o nome e a imagem da lanchonete.
+                Para usuários cadastrados, embaixo do nome, à esquerda,
+                existem dois ícones: um like verde e um dislike vermelho.
+                Clique em um deles para avaliar positivamente ou negativamente
+                a lanchonete. À direita do voto, você poderá ver os blocos próximos
+                a essa lanchonete.
+            </p>
+          </li>
+          <li>
+            <div class="creditos">
+              <br>
+              <b>Site feito por:</b><br>
+              <p>
+              <ul style="list-style-type: none; margin-left: -40px;">
+                <li>Carllos Eduardo</li>
+                <li>Jorge Lucas</li>
+                <li>Rafael Emílio</li>
+                <li>Rick Martin</li>
+                <li>Wagner Anthony</li>
+              </ul>
+            </p>
+            </div>
+          </li>
+          <li>
+            <div class="propaganda" style="margin-top:40px;">
+              <img style="width: 300px; height: 250px; margin-left: 50px" src="./images/ifood.jpg">
+            </div>
+          </li>
+        </ul>
+        <p style="text-align: center"><br><br><br><button onclick="window.location.href='logado2.html'">Próxima</button>
+        </p>
+      </li>
+    </ul>
+    <script src="logado.js"></script>
+  </body>
+</html>
